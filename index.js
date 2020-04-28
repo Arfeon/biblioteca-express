@@ -18,9 +18,9 @@ app.use(function(req, res, next) { //amb app.use el que fem es que express per q
 //Configuracions del nostre servidor de SQL
 const config = {
         user: "admin", //default is sa
-        password: "Es2zzkh27!",
-        server: "DESKTOP-3U87SO9\\SQLEXPRESS", // for local machine
-        database: "INTERACTIU", // name of database
+        password: "",
+        server: "", // for local machine
+        database: "", // name of database
         options: {
             enableArithAbort: false
         }
